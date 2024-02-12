@@ -11,7 +11,7 @@ public class Alarm : MonoBehaviour
 {
     [SerializeField] Text content;
 
-    static void Show(string message, AlarmType alarmType)
+    public static void Show(string message, AlarmType alarmType)
     {
         GameObject window = Instantiate(Resources.Load<GameObject>(alarmType.ToString()));
 
