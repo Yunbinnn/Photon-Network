@@ -380,6 +380,7 @@
 "Assets/02.Scripts/Manager/GameManager.cs"
 "Assets/02.Scripts/Manager/PlayfabManager.cs"
 "Assets/02.Scripts/Manager/RoomManager.cs"
+"Assets/02.Scripts/NickName.cs"
 "Assets/02.Scripts/PhotonPlayer.cs"
 "Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
 "Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"

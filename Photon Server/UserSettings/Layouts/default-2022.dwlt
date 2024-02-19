@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 16886
+  controlID: 121
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 16791
+  controlID: 28
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,8 +165,8 @@ MonoBehaviour:
     y: 0
     width: 950
     height: 443
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 16815
+  controlID: 73
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,8 +245,8 @@ MonoBehaviour:
     y: 0
     width: 197
     height: 939
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -716,7 +716,7 @@ MonoBehaviour:
       floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 737, y: 290}
+      snapOffset: {x: 709, y: 287}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
@@ -774,9 +774,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1205.9567, y: 830.8165, z: -1205.3112}
+    m_Target: {x: 822.8362, y: 806.40826, z: -796.54846}
     speed: 2
-    m_Value: {x: 1205.9567, y: 830.8165, z: -1205.3112}
+    m_Value: {x: 822.8362, y: 806.40826, z: -796.54846}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -822,13 +822,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.033303425, y: 0.0050942274, z: -0.0001698022, w: -0.9994323}
+    m_Target: {x: -0.0017856809, y: 0.16305068, z: -0.00029578386, w: -0.98661727}
     speed: 2
-    m_Value: {x: -0.033303425, y: 0.0050942274, z: -0.0001698022, w: -0.9994323}
+    m_Value: {x: -0.0017856788, y: 0.16305049, z: -0.0002957835, w: -0.9866161}
   m_Size:
-    m_Target: 81.394104
+    m_Target: 1.2247449
     speed: 2
-    m_Value: 81.394104
+    m_Value: 1.2247449
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -979,7 +979,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 516
-    width: 978
+    width: 949
     height: 475
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1030,21 +1030,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ee4bffff8a4dffff22e9ffff56f1ffff24fbffff
+      m_ExpandedIDs: 4488ffff9a88ffff048bffff2c8bffff448bffff1695fffff49cffff4a9dffffba9fffffec9fffff08a0ffffb6a7ffff32baffff88bafffff2bcffff1abdffff32bdffff32cbffff7ecbffffd8cdffff10d9ffff74daffff26dcffffbce2ffff12e3ffff82e5ffffb4e5ffffd0e5ffff56f7ffff94f9ffff18fbffff486000008a71000094710000b47100003a7200005a720000647200006872000090720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Content
+        m_OriginalName: Content
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 29288
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -1099,7 +1099,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/01.Scenes
+    - Assets/02.Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1107,16 +1107,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/01.Scenes
+  - Assets/02.Scripts
   m_LastFoldersGridSize: 65
   m_LastProjectPath: C:\Users\A\Desktop\Photon-Network\Photon Server
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c65d0000
-    m_LastClickedID: 24006
-    m_ExpandedIDs: 00000000b25d0000b45d0000c85d000000ca9a3b
+    m_SelectedIDs: 865d0000
+    m_LastClickedID: 23942
+    m_ExpandedIDs: 000000006e5d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1144,7 +1144,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b25d0000b45d000000ca9a3b
+    m_ExpandedIDs: 000000006e5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
