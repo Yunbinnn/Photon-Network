@@ -1,10 +1,8 @@
 using Photon.Pun;
 using Photon.Realtime; // 어느 서버에 접속했을 때 이벤트를 호출하는 라이브러리
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.UI;
 
 public class RoomManager : MonoBehaviourPunCallbacks
@@ -58,10 +56,10 @@ public class RoomManager : MonoBehaviourPunCallbacks
         RemoveRoom();
 
         // 2. 룸을 업데이트 합니다.
-        //UpdateRoom();
+        UpdateRoom(roomList);
 
         // 3. 룸을 생성합니다.
-        InstantiateRoom();
+        CreateRoomObject();
     }
 
     public void RemoveRoom()
@@ -96,6 +94,22 @@ public class RoomManager : MonoBehaviourPunCallbacks
                 // roomDictionary에 key값을 넣습니다.
                 roomDictionary[roomList[i].Name] = roomList[i];
             }
+        }
+    }
+
+    public void CreateRoomObject()
+    {
+        // roomDictionary에 여러 개의 Values값이 들어있다면, roomInfo에 넣어줍니다.
+        foreach (RoomInfo roomInfo in roomDictionary.Values)
+        {
+            // room 오브젝트를 생성합니다.
+            GameObject room = Instantiate(Resources.Load<GameObject>("Room"));
+
+            // room 오브젝트의 부모 오브젝트를 설정합니다.
+            room.transform.SetParent(roomParentTransform);
+
+            // room에 대한 정보를 입력합니다.
+            room.GetComponent<Information>().RoomData(roomInfo.Name, roomInfo.PlayerCount, roomInfo.MaxPlayers);
         }
     }
 }
