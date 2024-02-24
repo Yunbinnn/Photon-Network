@@ -388,6 +388,7 @@
 "Assets/02.Scripts/Player/MouseManager.cs"
 "Assets/02.Scripts/Player/NickName.cs"
 "Assets/02.Scripts/Player/PhotonPlayer.cs"
+"Assets/02.Scripts/Player/Rifle.cs"
 "Assets/02.Scripts/UI/Alarm.cs"
 "Assets/02.Scripts/UI/Information.cs"
 "Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
