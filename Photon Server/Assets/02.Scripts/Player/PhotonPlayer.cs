@@ -24,9 +24,6 @@ public class PhotonPlayer : MonoBehaviourPun
             temporaryCamera.enabled = false;
             GetComponentInChildren<AudioListener>().enabled = false;
         }
-
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 
     void Update()
@@ -39,12 +36,6 @@ public class PhotonPlayer : MonoBehaviourPun
             {
                 Debug.Log("Master Client");
             }
-        }
-
-        if(Input.GetKeyDown(KeyCode.V)) 
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
         }
 
         Movement();
