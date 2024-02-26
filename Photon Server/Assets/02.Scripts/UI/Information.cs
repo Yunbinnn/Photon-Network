@@ -12,7 +12,7 @@ public class Information : MonoBehaviourPunCallbacks
         PhotonNetwork.JoinRoom(roomName);
     }
 
-    public void RoomData(string name, int currentStaff,int maxStaff)
+    public void RoomData(string name, int currentStaff, int maxStaff)
     {
         roomName = name;
         roomInformation.fontSize = 50;

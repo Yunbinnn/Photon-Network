@@ -42,8 +42,8 @@ public class PlayfabManager : MonoBehaviourPunCallbacks
 
     public void Login()
     {
-        var request = new LoginWithEmailAddressRequest 
-        { 
+        var request = new LoginWithEmailAddressRequest
+        {
             Email = email.text,
             Password = password.text,
         };
